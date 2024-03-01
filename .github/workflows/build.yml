@@ -17,8 +17,8 @@ on:
       - '**.md'
 
 env:
-  DOCKERHUB_SLUG: crazymax/matomo
-  GHCR_SLUG: ghcr.io/crazy-max/matomo
+  DOCKERHUB_SLUG: rafaelmaeuer/matomo
+  GHCR_SLUG: ghcr.io/rafaelmaeuer/matomo
 
 jobs:
   build:
