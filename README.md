@@ -1,17 +1,17 @@
 <p align="center"><a href="https://github.com/crazy-max/docker-matomo" target="_blank"><img height="128" src="https://raw.githubusercontent.com/crazy-max/docker-matomo/master/.github/docker-matomo.jpg"></a></p>
 
 <p align="center">
-  <a href="https://hub.docker.com/r/crazymax/matomo/tags?page=1&ordering=last_updated"><img src="https://img.shields.io/github/v/tag/crazy-max/docker-matomo?label=version&style=flat-square" alt="Latest Version"></a>
-  <a href="https://github.com/crazy-max/docker-matomo/actions?workflow=build"><img src="https://img.shields.io/github/actions/workflow/status/crazy-max/docker-matomo/build.yml?branch=master&label=build&logo=github&style=flat-square" alt="Build Status"></a>
-  <a href="https://hub.docker.com/r/crazymax/matomo/"><img src="https://img.shields.io/docker/stars/crazymax/matomo.svg?style=flat-square&logo=docker" alt="Docker Stars"></a>
-  <a href="https://hub.docker.com/r/crazymax/matomo/"><img src="https://img.shields.io/docker/pulls/crazymax/matomo.svg?style=flat-square&logo=docker" alt="Docker Pulls"></a>
-  <br /><a href="https://github.com/sponsors/crazy-max"><img src="https://img.shields.io/badge/sponsor-crazy--max-181717.svg?logo=github&style=flat-square" alt="Become a sponsor"></a>
-  <a href="https://www.paypal.me/crazyws"><img src="https://img.shields.io/badge/donate-paypal-00457c.svg?logo=paypal&style=flat-square" alt="Donate Paypal"></a>
+  <a href="https://hub.docker.com/r/rafaelmaeuer/matomo/tags?page=1&ordering=last_updated"><img src="https://img.shields.io/github/v/tag/rafaelmaeuer/docker-matomo?label=version&style=flat-square" alt="Latest Version"></a>
+  <a href="https://github.com/rafaelmaeuer/docker-matomo/actions?workflow=build"><img src="https://img.shields.io/github/actions/workflow/status/rafaelmaeuer/docker-matomo/build.yml?branch=master&label=build&logo=github&style=flat-square" alt="Build Status"></a>
+  <a href="https://hub.docker.com/r/rafaelmaeuer/matomo/"><img src="https://img.shields.io/docker/stars/rafaelmaeuer/matomo.svg?style=flat-square&logo=docker" alt="Docker Stars"></a>
+  <a href="https://hub.docker.com/r/rafaelmaeuer/matomo/"><img src="https://img.shields.io/docker/pulls/rafaelmaeuer/matomo.svg?style=flat-square&logo=docker" alt="Docker Pulls"></a>
+  <br /><a href="https://github.com/sponsors/rafaelmaeuer"><img src="https://img.shields.io/badge/sponsor-rafaelmaeuer-181717.svg?logo=github&style=flat-square" alt="Become a sponsor"></a>
+  <a href="https://www.paypal.me/rafaelmaeuer"><img src="https://img.shields.io/badge/donate-paypal-00457c.svg?logo=paypal&style=flat-square" alt="Donate Paypal"></a>
 </p>
 
 ## About
 
-[Matomo](https://matomo.org/) (formerly Piwik) Docker image.
+[Matomo](https://matomo.org/) (formerly Piwik) Docker image - Fork with Matomo updated to v5.
 
 > **Note**
 > 
@@ -66,7 +66,7 @@ ___
 ## Build locally
 
 ```shell
-git clone https://github.com/crazy-max/docker-matomo.git
+git clone https://github.com/rafaelmaeuer/docker-matomo.git
 cd docker-matomo
 
 # Build image and output to docker (default)
@@ -78,16 +78,16 @@ docker buildx bake image-all
 
 ## Image
 
-| Registry                                                                                          | Image                      |
-|---------------------------------------------------------------------------------------------------|----------------------------|
-| [Docker Hub](https://hub.docker.com/r/crazymax/matomo/)                                           | `crazymax/matomo`          |
-| [GitHub Container Registry](https://github.com/users/crazy-max/packages/container/package/matomo) | `ghcr.io/crazy-max/matomo` |
+| Registry                                                                                             | Image                         |
+|------------------------------------------------------------------------------------------------------|-------------------------------|
+| [Docker Hub](https://hub.docker.com/r/rafaelmaeuer/matomo/)                                          | `rafaelmaeuer/matomo`         |
+| [GitHub Container Registry](https://github.com/users/rafaelmaeuer/packages/container/package/matomo) | `ghcr.io/rafaelmaeuer/matomo` |
 
 Following platforms for this image are available:
 
 ```
-$ docker run --rm mplatform/mquery crazymax/matomo:latest
-Image: crazymax/matomo:latest
+$ docker run --rm mplatform/mquery rafaelmaeuer/matomo:latest
+Image: rafaelmaeuer/matomo:latest
  * Manifest List: Yes
  * Supported platforms:
    - linux/amd64
@@ -274,8 +274,8 @@ If you are on a [HA environment](https://matomo.org/faq/new-to-piwik/faq_134/), 
 ## Contributing
 
 Want to contribute? Awesome! The most basic way to show your support is to star
-the project, or to raise issues. You can also support this project by [**becoming a sponsor on GitHub**](https://github.com/sponsors/crazy-max)
-or by making a [PayPal donation](https://www.paypal.me/crazyws) to ensure this
+the project, or to raise issues. You can also support this project by [**becoming a sponsor on GitHub**](https://github.com/sponsors/rafaelmaeuer)
+or by making a [PayPal donation](https://www.paypal.me/rafaelmaeuer) to ensure this
 journey continues indefinitely!
 
 Thanks again for your support, it is much appreciated! :pray:
